@@ -1,0 +1,19 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    username: root
+    password: 17613X
+    url: jdbc:mysql://96.30.199.236:3306/data?useSSL=false&serverTimezone=UTC&characterEncoding=UTF-8
+  jpa:
+    show-sql: false
+  jackson:
+    default-property-inclusion: non_null
+  redis:
+    host: 96.30.199.236
+    port: 6379
+server:
+  servlet:
+    context-path: /sell
+wechat:
+  mpAppId: mpAppId
+  openAppSecret: openAppSecret
