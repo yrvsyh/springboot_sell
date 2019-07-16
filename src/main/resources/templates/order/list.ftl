@@ -8,7 +8,7 @@
 
 <div id="wrapper" class="toggled">
 
-    <#include "/templates/common/nav.ftl">
+    <#--    <#include "/templates/common/nav.ftl">-->
 
     <div class="row clearfix">
         <div class="col-md-12 column">
